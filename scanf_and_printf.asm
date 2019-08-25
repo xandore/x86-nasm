@@ -24,7 +24,7 @@ _main:
 
 	push msg		;place msg on top of stack
 	call _printf	;write msg to screen
-	add esp,8		;remove params from stack
+	add esp,4		;remove params from stack
 	
 	push uname		;store name in uanme 
 	push fmt		;format for name
