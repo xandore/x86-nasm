@@ -2,8 +2,8 @@
 ; uname char[20];
 ; int _main(void){
 ;	printf("Hello, what is your name?!");
-;	scanf("%s",uname)
-;	printf("Hi, %s",uname)
+;	scanf("%s",uname);
+;	printf("Hi, %s",uname);
 ;}
 
 global _main
